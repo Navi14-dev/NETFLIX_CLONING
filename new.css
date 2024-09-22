@@ -61,5 +61,13 @@
         color: #a3a3a3;
         font-weight: 800;
     }
+    nav{
+        background-color: black;
+        justify-content: space-between;
+        
+    }
 
-    .banner
+    nav .logo img{
+         object-fit: contain;
+         max-width: 100px;
+    }
