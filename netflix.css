@@ -1,0 +1,54 @@
+*{
+    background-color: #222;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    filter:drop-shadow(2px 2px 10px rgb(125, 255, 8));
+    color:rgb(0, 234, 255);
+}
+.banner {
+    background-image: url("https://occ-0-1009-448.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWcOJREo-h7_Dhe4stjffDUhbO4mzslQd5rtQvcTY-1LX9IgPqZGx5ghK99vgMumhvGS68J-9gs5SDubEYqnij4eQA3VOQf1wGi4.jpg?r=ea7&quot");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+    color: aqua;
+    font-size: 100px;
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+}
+.posters::-webkit-scrollbar{
+    display: none;
+}
+.poster {
+    margin: 2px 2px 2px 2px;
+    border-radius: 0.4%;
+}
+h1.a{
+    padding: 0px 0px 0px 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: aqua;
+}
+h3{
+    color :blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 90px;
+    font-size: 25px;
+    
+    
+
+}
