@@ -43,7 +43,7 @@
         color: black;
         transition: 0.8ms;
     }
-    nav .actions .sign {
+    nav .actions .signout {
         background-color: transparent;
         color:white;
         padding: 9px 24px ;
@@ -55,7 +55,7 @@
         margin: 0px 10px 0px 0px;
     }
 
-    nav .actions .sign:hover{
+    nav .actions .signout:hover{
         background-color: white;
         color: black;
         transition: 0.8ms;
