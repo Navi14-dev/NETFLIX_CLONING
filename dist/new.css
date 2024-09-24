@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    body{
+      background-color: blanchedalmond;
+      color: rgb(32, 207, 12);
+      font-family: 'Times New Roman', Times, serif;
+    }
+    nav{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10px 0px 10px;
+    }
+
+    nav .logo img{
+         object-fit: contain;
+         max-width: 100px;
+         padding-top: 10%;
+    }
+    nav .actions {
+        display: flex;
+        margin: 10px 20px;
+
+    }
+    nav .actions .join {
+        background-color: #E50914;
+        color:white;
+        padding: 9px 24px ;
+        border: none;
+        border-radius: 4%;
+        cursor: pointer;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px 10px 0px 0px;
+    }
+    nav .actions .join:hover{
+        background-color: white;
+        color: black;
+        transition: 0.8ms;
+    }
+    nav .actions .signout {
+        background-color: transparent;
+        color:white;
+        padding: 9px 24px ;
+        border: 1px solid white;
+        border-radius: 4%;
+        cursor: pointer;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px 10px 0px 0px;
+    }
+
+    nav .actions .signout:hover{
+        background-color: white;
+        color: black;
+        transition: 0.8ms;
+    }
+    
+    .banner{
+        background:linear-gradient(90deg, #1316d2 0, hsla(0, 0%, 9%, .987) 1.62%, hsla(0, 0%, 9%, .951) 3.1%, hsla(0, 0%, 9%, .896) 4.5%, hsla(0, 0%, 9%, .825) 5.8%, hsla(0, 0%, 9%, .741) 7.06%, hsla(0, 0%, 9%, .648) 8.24%, hsla(0, 0%, 9%, .55) 9.42%, hsla(0, 0%, 9%, .45) 10.58%, hsla(0, 0%, 9%, .352) 11.76%, hsla(0, 0%, 9%, .259) 12.94%, hsla(0, 0%, 9%, .175) 14.2%, hsla(0, 0%, 9%, .104) 15.5%, hsla(0, 0%, 9%, .049) 16.9%, hsla(0, 0%, 9%, .013) 18.38%, hsla(0, 0%, 9%, 0) 20%), url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeqU5y13eHjQ6rfOYnpZUi3Rs_tf8KhstGfq_LmpqDzeR0UmZ_Op7pNso4OFiL97UO-hwXayjoAue7TL_Okys9Q280u7XZJpbOle.jpg?r=834&quot");
+        background-size: cover;
+        background-position: center center;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        height: 800px;
+        
+    }
+    .banner .bannercontent .bannertitle img { 
+        object-fit: contain;
+        max-width: 100%;
+    }
+    .bannercontent {
+        padding: 10% 10%;
+
+    }
+    .bannercontent .bannertitle h1 {
+        font-size: 45px;
+        padding: 10px 0px;
+       
+
+    }
+    .bannercontent .bannertitle h3{
+        font-size: 20px;
+        padding: 5px 0px;
+        color: #a3a3a3;
+        
+    }
+
+    .banner .bannertitle span {
+        font-size: 35px;
+        padding-top: 10px;
+    }
+    .bannercontent .bannertitle p{
+        padding-top: 10px;
+        font-size: 20px;
+        color: aqua;
+        max-width: 40%;
+    }
+
+    .bannercontent .bannertitle .ab {
+        background-color: transparent;
+        padding: 4px 8px;
+        border: 2px solid #a3a3a3;
+    }
+
+    .bannercontent .bannertitle .abc{
+        font-size: 20px;
+        color: #a3a3a3;
+        font-weight: 800;
+    }
+    
